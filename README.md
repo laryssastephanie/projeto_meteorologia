@@ -19,11 +19,17 @@
     |       └── lista_recs.csv (arquivo com todas as RECs e suas respectivas cidades em formato .csv)
     └──
 
-### Arquivos Jupyter Notebooks desenvolvidos
+### Arquivos Jupyter Notebooks e R desenvolvidos
 - `01-Dados-hist-clima.ipynb`
     - Arquivo criado para explorar os dados históricos baixados no site do INMET, testar funções e plotagem de gráficos para serem utilizados no dashboard posteriormente;
 - `02-Estacoes-met.ipynb`
     - Arquivo para trabalhar a lista de EMs disponíveis encontrada no site do INMET e adicionar informações como regiões do Brasil e regiões edafoclimáticas;
+- `03-Variogramas.ipynb`
+    - Arquivo para plotar análises de distribuição de frequências e variogramas para verificar a qualidade dos dados;
+- `04-UTM.ipynb`
+    - Arquivo para converter longitude e latitude em novas colunas x e y contendo informações de UTM para que possam ser utilizadas no script R de krigagem;
+- `clima_pr.R`
+    - Script R para plotar a malha do estado do Paraná e realizar a interpolação utilizando a técnica IDW.
 
 ### Arquivos necessários para o Dashboard e sua execução
 - `app.py`
